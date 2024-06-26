@@ -48,6 +48,12 @@ $config = [
             'rules' => [
             ],
         ],
+        'teletype' => [
+            'class' => 'app\components\Teletype',
+            'token' => 'cPsRhtM27GwSawUn3FeIJ7JvtBvOu-MrqKwIF9lwmReQ8tf0wMUzDKAymv6yEehP',
+            'logFileClients' => '@app/log/clients.log',
+            'logFileOperators' => '@app/log/operators.log',
+        ],
     ],
     'params' => $params,
 ];
